@@ -56,5 +56,8 @@ streamlit run app.py
 - Color-coded sentiment display 🌈
 - Informative tips and instructions 💡
 
+## Output Screen
+![image](https://github.com/user-attachments/assets/c9ad3057-7c19-45ac-b11a-810c85772caf)
+
 ## 📌 Note
 Ensure you have the pre-trained model (`simple_rnn_imdb.h5`) in the same directory before running the application. 🔍
