@@ -4,38 +4,42 @@
 This is a Streamlit-based web application that uses a pre-trained deep learning model to analyze the sentiment of movie reviews. The application classifies movie reviews as either Positive or Negative using a machine learning model trained on the IMDB dataset.
 
 ## 🛠️ Requirements
-- Python 3.8+ 🐍
-- Streamlit
-- TensorFlow
-- NumPy
-- Pillow (PIL)
+1. numpy
+2. pandas
+3. tensorflow
+4. scikit-learn
+5. streamlit
+6. tensorboard
 
 ## 💾 Installation
 
 1. Clone the repository:
 ```bash
-git clone https://your-repository-url.git
-cd movie-sentiment-analysis
+git clone https://github.com/Yuvraj0014/Sentiment-Analysis-using-RNN-and-NLP.git
+Sentiment-Analysis-using-RNN-and-NLP
 ```
 
-2. Create a virtual environment:
-```bash
+2. Setup a virtual environment (optional but recommended)
+```cmd
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+source venv/bin/activate  # For Linux/MacOS
+venv\Scripts\activate  # For Windows
 ```
 
-3. Install required dependencies:
-```bash
+3. Install required dependencies
+```cmd
 pip install -r requirements.txt
 ```
 
-4. Ensure you have the pre-trained model file `simple_rnn_imdb.h5` in the project directory.
-
-## 🚀 Usage
-
-Run the Streamlit application:
-```bash
+4. Run the streamlit app
+```cmd
 streamlit run app.py
+```
+
+## Results 
+Too lazy to adult today? Join the club! Ditch the to-do list and dive into the Streamlight app instead. It's right here, waiting for you!
+```
+sentiment-analysis-using-rnn-and-nlp.streamlit.app
 ```
 
 ## 🔍 How to Use the Application
