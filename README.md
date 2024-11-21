@@ -50,8 +50,6 @@ sentiment-analysis-using-rnn-and-nlp.streamlit.app
 5. View the sentiment prediction and score 📊
 
 ## 📈 Output Prediction
-
-## 📈 Output Prediction
 ### Classification Mechanism 🧠
 The sentiment classification is based on a neural network model trained on the IMDB dataset, which uses a probabilistic approach:
 
