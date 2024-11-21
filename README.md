@@ -50,9 +50,39 @@ sentiment-analysis-using-rnn-and-nlp.streamlit.app
 5. View the sentiment prediction and score 📊
 
 ## 📈 Output Prediction
-- **Positive Sentiment** 😄: Prediction score > 0.6
-- **Negative Sentiment** 😞: Prediction score ≤ 0.6
-- Displays sentiment label and confidence score
+
+## 📈 Output Prediction
+### Classification Mechanism 🧠
+The sentiment classification is based on a neural network model trained on the IMDB dataset, which uses a probabilistic approach:
+
+- **Prediction Score Range**: 0 to 1
+- **Positive Sentiment** 😄: Score > 0.6
+- **Negative Sentiment** 😞: Score ≤ 0.6
+
+### How Classification Works
+1. **Text Preprocessing**:
+   - Convert input to lowercase
+   - Tokenize the review into words
+   - Map words to numerical indices
+   - Pad the sequence to a fixed length (500 words)
+
+2. **Model Prediction**:
+   - Input processed text into pre-trained neural network
+   - Model generates a probability score between 0 and 1
+   - Closer to 1 indicates more positive sentiment
+   - Closer to 0 indicates more negative sentiment
+
+3. **Decision Boundary**:
+   - Score > 0.6: Classified as Positive Review
+   - Score ≤ 0.6: Classified as Negative Review
+
+**Example**:
+- Review Score 0.75 → Positive Sentiment 😃
+- Review Score 0.45 → Negative Sentiment 😔
+
+### Confidence Interpretation
+- Scores near 0.5 indicate uncertain or neutral sentiment
+- Scores further from 0.5 (closer to 0 or 1) show stronger sentiment confidence
 
 ## 🖥️ Application Interface
 - Centered layout with a cinema-themed design 🎥
